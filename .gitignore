@@ -10,3 +10,5 @@ tags
 user.make
 .exrc
 .vimrc
+/cmake-build-debug/*
+.idea

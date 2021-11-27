@@ -9,9 +9,6 @@ static void jsR_run(js_State *J, js_Function *F);
 
 /* Push values on stack */
 
-#define STACK (J->stack)
-#define TOP (J->top)
-#define BOT (J->bot)
 
 static void js_trystackoverflow(js_State *J)
 {
